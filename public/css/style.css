@@ -1,0 +1,82 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 150vh;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg'); */
+    background: linear-gradient(135deg, #153677, #4e085f);
+}
+
+.box {
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #002765;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+}
+
+.item{
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.item input[type="checkbox"]:checked + p {
+    text-decoration: line-through;
+}
+
+.item p {
+    flex: 1;
+    font-size: 20px;
+    color: #002765;
+    text-transform: capitalize;
+}
+
+input[type="text"] {
+    background-color: transparent;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 15px 50px;
+    border-radius: 30px;
+    background-color: #ff5945;
+    color: #fff;
+    font-size: 18px;
+    transition: all .25s ease;
+}
+
+button:hover {
+    background-color: #08b0ed;
+}
+
+p {
+    margin: 10px 0;
+}
